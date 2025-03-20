@@ -42,7 +42,9 @@ public class BlankFragment2 extends Fragment {
         if (bundle != null) {
             choice = bundle.getInt("door");
         }
-        Toast.makeText(requireContext(), "! Свежие новости на канале buttonOnClick", Toast.LENGTH_LONG).show();
+        String soxranil = getWater(choice);
+
+        Toast.makeText(requireContext(), soxranil, Toast.LENGTH_LONG).show();
 
     }
 
@@ -51,5 +53,13 @@ public class BlankFragment2 extends Fragment {
                              Bundle savedInstanceState) {
 
         return inflater.inflate(R.layout.fragment_blank2, container, false);
+    }
+
+
+
+
+    public String getWater(int position) {
+        String[] xlebs = getResources().getStringArray(R.array.sillllllki_ponimaesh_besplatno);
+        return xlebs[position];
     }
 }

@@ -2,4 +2,11 @@
     <string name="app_name">ViborSillokFaragament</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="sillllllki_ponimaesh_besplatno">
+        <item>https://vk.com/feed</item>
+        <item>https://rutube.ru/</item>
+        <item>https://funkopoprussia.com/</item>
+        <item>https://soul-knight.fandom.com/ru/wiki/Soul_Knight_вики</item>
+    </string-array>
+
 </resources>

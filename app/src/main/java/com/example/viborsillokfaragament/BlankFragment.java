@@ -44,7 +44,7 @@ public class BlankFragment extends Fragment {
         binding = FragmentBlankBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
 
-       return inflater.inflate(R.layout.fragment_blank, container, false);
+       return view;
     }
 
     @Override
